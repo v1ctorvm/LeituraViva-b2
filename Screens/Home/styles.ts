@@ -55,6 +55,7 @@ export const Main = styled.View`
 
 export const BookGrid = styled.FlatList`
   margin-bottom: 200px;
+  background-color: #cdc9c9;
 `;
 
 export const BookCard = styled.View`
@@ -62,6 +63,7 @@ export const BookCard = styled.View`
   border-radius: 10px;
   flex-direction: row;
   border-width: 1px;
+  background-color: white;
 `;
 
 export const BookText = styled.View`
