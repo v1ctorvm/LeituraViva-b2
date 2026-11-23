@@ -3,14 +3,13 @@ import styled from "styled-components/native";
 
 export const ScreenContainer = styled(SafeAreaView)`
   flex: 1;
-  background-color: green;
 `;
 
 export const Header = styled.View`
-  background-color: red;
   flex-direction: row;
   margin-left: 20px;
   margin-right: 20px;
+  align-self: center;
 `;
 
 export const BookImage = styled.Image`
@@ -19,8 +18,9 @@ export const BookImage = styled.Image`
 `;
 
 export const TitleContainer = styled.View`
-  background-color: purple;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 `;
 
 export const ScreenTitle = styled.Text`
@@ -36,7 +36,7 @@ export const ScreenSubTitle = styled.Text`
 export const SearchInput = styled.TextInput`
   background-color: white;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 20px;
   padding: 10px;
 `;
@@ -46,23 +46,22 @@ export const SerchContainer = styled.View`
   border-top-right-radius: 15px;
   height: 80px;
   margin-top: 20px;
-  background-color: blue;
+  background-color: #cdc9c9;
 `;
 
 export const Main = styled.View`
-  background-color: black;
+  background-color: #ffffff;
 `;
 
 export const BookGrid = styled.FlatList`
-  background-color: yellow;
   margin-bottom: 200px;
 `;
 
 export const BookCard = styled.View`
   margin: 10px;
   border-radius: 10px;
-  background-color: wheat;
   flex-direction: row;
+  border-width: 1px;
 `;
 
 export const BookText = styled.View`
@@ -82,9 +81,12 @@ export const BookAuthor = styled.Text`
 
 export const BookBurrow = styled.View`
   align-items: center;
+  margin: 20px;
 `;
 
 export const BookBurrowText = styled.Text`
-  background-color: orange;
+  background-color: rgba(197, 255, 252, 0.98);
   font-size: 20px;
+  align-self: last baseline;
+  border-radius: 20px;
 `;
